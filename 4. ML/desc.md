@@ -1,29 +1,23 @@
 ### Random Forest Regression Model for Optiver dataset
-The dataset used in this project originates from the Optiver trading challenge, focusing on trading activities at the close of financial markets. It comprises various trading-related features, including:
-•
-stock_id: Identifier for individual stocks.
-•
-date_id: The specific date of trading.
-•
-seconds_in_bucket: Time elapsed on a particular trading day.
-•
-imbalance_size: The size of order book imbalances.
-•
-imbalance_buy_sell_flag: Indicator of the direction of order book imbalance.
-•
-reference_price: Reference price for the trades.
-•
-matched_size: Size of trades that were matched.
-•
-far_price, near_price: Different price metrics relevant to trading.
-•
-bid_price, ask_price: Prices at which buyers are willing to buy and sellers are willing to sell.
-•
-bid_size, ask_size: Size of orders at the bid and ask prices.
-•
-wap: Weighted average price.
-•
-target: The target variable to predict, representing a feature of market volatility.
-•
-time_id, row_id: Additional identifiers.
-This dataset presents a snapshot of market conditions and is instrumental in understanding market dynamics at the close of trading.
+The dataset used in this project originates from the Optiver trading challenge, focusing on trading activities at the close of financial markets. This dataset presents a snapshot of market conditions and is instrumental in understanding market dynamics at the close of trading.
+
+## Regression Models Used
+The project involved applying various regression models to predict the target variable using the given dataset. The models tested included:
+• Linear Regression: A baseline model for performance comparison.
+• SGD Regressor: A linear model optimized using stochastic gradient descent.
+• Random Forest Regressor: An ensemble model known for its robustness and ability to handle non-linear data.
+• LGBM Regressor: A gradient boosting framework known for its efficiency with large datasets.
+
+## Performance Metrics and Initial Conclusions
+The models were evaluated using metrics like Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and the coefficient of determination (R²). From the evaluation:
+• The Linear Regression model showed a wide dispersion in predictions, indicating poor performance, especially for extreme values.
+• The SGD Regressor showed atypical results, possibly due to issues in convergence or data scaling, as indicated by its performance metrics.
+• The Random Forest Regressor displayed a better alignment of predictions, with more consistent residuals, suggesting superior performance.
+• The LGBM Regressor demonstrated reasonable prediction accuracy but with room for improvement.
+
+I used scatter plot graph and residual graph to visualize the predictions with the disparity from truth.
+
+![image](https://github.com/PranavMishra17/Applied-AI-Projects-CS512-UIC/assets/89926012/42ad95ef-2a33-4be7-b0d0-cf7fbb9e523a)
+
+
+
