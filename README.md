@@ -21,7 +21,7 @@ Also, the model makes use of sigmoid functions and conditional adjustments to ac
 ## Project-3: Bayesian Network influence diagram for Football Player Selection
 **Description:** This research employs Bayesian Networks to create an advanced decision-making tool for player selection in football teams. The model takes into account various factors such as coach preference, fitness level, time for recovery, and behavioral aspects, and it uses conditional logic to produce more refined and context-sensitive results. By evaluating a range of criteria from objective skills to subjective evaluations like leadership and clutch performance, the model produces a probabilistic outcome of a player being either "Selected" or "Dropped" for a match or season.
 
-## Project-4: Random Forest Regression Model for Optiver dataset
+## Project-4: Optiver Trading Challenge: Market Volatility Prediction
 The dataset used in this project originates from the Optiver trading challenge, focusing on trading activities at the close of financial markets. This dataset presents a snapshot of market conditions and is instrumental in understanding market dynamics at the close of trading.
 **Regression Models **
 The project involved applying various regression models to predict the target variable using the given dataset. The models tested included:
