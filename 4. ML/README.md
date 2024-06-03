@@ -1,4 +1,4 @@
-# Random Forest Regression Model for Optiver dataset
+# Optiver Trading Challenge: Market Volatility Prediction
 The dataset used in this project originates from the Optiver trading challenge, focusing on trading activities at the close of financial markets. This dataset presents a snapshot of market conditions and is instrumental in understanding market dynamics at the close of trading.
 
 ## Regression Models Used
